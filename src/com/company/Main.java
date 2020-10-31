@@ -59,6 +59,7 @@ public class Main {
         adjgraph.newEdge(Eskildstrup,Maribo,28);
         adjgraph.newEdge(Eskildstrup, NykøbingF, 13);
         adjgraph.newEdge(Eskildstrup, Vordingborg, 24);
+
         adjgraph.newEdge(Haslev, Korsør, 60);
         adjgraph.newEdge(Haslev,Køge,24);
         adjgraph.newEdge(Haslev, Næstved, 25);
@@ -66,6 +67,7 @@ public class Main {
         adjgraph.newEdge(Haslev, Roskilde, 47);
         adjgraph.newEdge(Haslev,Sorø,34);
         adjgraph.newEdge(Haslev, Vordingborg, 40);
+
         adjgraph.newEdge(Holbæk, Jærgerpris, 34);
         adjgraph.newEdge(Holbæk, Kalundborg, 44);
         adjgraph.newEdge(Holbæk, Korsør, 66);
@@ -73,22 +75,27 @@ public class Main {
         adjgraph.newEdge(Holbæk, Roskilde, 32);
         adjgraph.newEdge(Holbæk, Slagelse, 46);
         adjgraph.newEdge(Holbæk, Sorø, 34);
+
         adjgraph.newEdge(Jærgerpris, Korsør, 95);
         adjgraph.newEdge(Jærgerpris, Køge, 58);
         adjgraph.newEdge(Jærgerpris, Ringsted, 56);
         adjgraph.newEdge(Jærgerpris, Roskilde, 33);
         adjgraph.newEdge(Jærgerpris, Slagelse, 74);
         adjgraph.newEdge(Jærgerpris, Sorø, 63);
+
         adjgraph.newEdge(Kalundborg, Ringsted, 62);
         adjgraph.newEdge(Kalundborg, Roskilde, 70);
         adjgraph.newEdge(Kalundborg, Slagelse, 39);
         adjgraph.newEdge(Kalundborg, Sorø, 51);
+
         adjgraph.newEdge(Korsør, Næstved, 45);
         adjgraph.newEdge(Korsør, Slagelse, 20);
+
         adjgraph.newEdge(Køge, Næstved, 45);
         adjgraph.newEdge(Køge, Ringsted, 28);
         adjgraph.newEdge(Køge, Roskilde, 25);
         adjgraph.newEdge(Køge, Vordingborg, 60);
+
         adjgraph.newEdge(Maribo, Nakskov, 27);
         adjgraph.newEdge(Maribo, NykøbingF,26 );
         adjgraph.newEdge(Næstved, Roskilde,57 );
@@ -102,6 +109,7 @@ public class Main {
         adjgraph.newEdge(Slagelse, Sorø,14);
 
         adjgraph.printGraph();
+        adjgraph.MSTPrims();
 
 
     }
