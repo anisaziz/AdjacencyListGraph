@@ -3,7 +3,6 @@ import java.util.ArrayList;
 import java.util.PriorityQueue;
 
 class adjgraph {
-    //private int[] WeightGraph;
     private ArrayList<Vertex> vertices;
 
     public adjgraph() {
@@ -57,8 +56,7 @@ class adjgraph {
 
                     if (oECVWeight < oEToCV.getDistance() && !oEToCV.isVisited()) { //Is the weight of the current vertex's outedge (the one we are checking) smaller than the weight of the vertex that comes before(?). And is the vertex we are coming from not visited(?)
                         oEToCV.setDistance(oECVWeight); //Set the distance of the vertex we are going to, to that of the current vertex' outedge, since it is smaller.
-                        //Set predecessor.
-                        //predecessor[i] = iCurrentVertex;
+
 
                         oEToCV.setPredecessor(iCurrentVertex);
 
